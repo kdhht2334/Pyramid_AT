@@ -16,7 +16,7 @@ Official repository with TF/JAX
 Usage
 ---
 
-Just follow below:
+All you have to do is load images and (pre-trained) models.
 
 ```python
 import torchvision
@@ -24,12 +24,6 @@ import cv2
 
 from pyramidAT import pyramidAT
 
-
-lr = 3./255
-H = 224
-M = [20,10,1]
-S = [32,16,1]
-BOUNDS = [0,1]
 n_steps = 10
 
 models = torchvision.models.resnet50(pretrained='imagenet').eval()
@@ -37,3 +31,8 @@ images = cv2.resize(cv2.imread('imgs/golf_ball.jfif'), (224,224))
 
 perturbed_image = pyramidAT(images, model, mode='nearest', n_steps=n_steps)
 ```
+
+
+Contact (or collaborate)
+---
+email: `kdhht5022@gmail.com`
