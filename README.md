@@ -16,7 +16,7 @@ Official repository with TF/JAX
 Usage
 ---
 
-All you have to do is load images and (pre-trained) models.
+All you have to do is loading images and deep model(s).
 
 ```python
 import torchvision
@@ -32,6 +32,12 @@ images = cv2.resize(cv2.imread('imgs/golf_ball.jfif'), (224,224))
 perturbed_image = pyramidAT(images, model, mode='nearest', n_steps=n_steps)
 ```
 
+Milestone
+---
+  - [x] Convert original TF/JAX to PyTorch version
+  - [ ] PyramidAT with dataloader
+  - [ ] Bench-marking table
+  
 
 Contact (or collaborate)
 ---
