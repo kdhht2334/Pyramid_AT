@@ -1,7 +1,7 @@
 ## PyramidAT (PyTorch version)
 
 <p align="center">
-<img src="https://github.com/kdhht2334/Pyramid_AT/blob/main/pics/door.png" height="500", width="3000"/>
+<img src="https://github.com/kdhht2334/Pyramid_AT/blob/main/pics/door.png" height="400", width="3000"/>
 </p>
 
 (Original) Paper
